@@ -92,6 +92,11 @@
 }
 
 @media (max-width: 991px) {
+    .catalog-item-price-check {
+        text-align: left;
+        width: 140px;
+        margin-top: 10px;
+    }
     .catalog-item-calculator-text {
         display: none;
     }
