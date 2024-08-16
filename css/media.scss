@@ -1,0 +1,234 @@
+@media (max-width: 1400px) {
+    .catalog-item .catalog-item-price span {
+        width: 100%;
+        margin: 0;
+    }
+    .catalog-item .catalog-item-price-check {
+        padding-right: 20px;
+    }
+    .catalog-item .catalog-item-price p {
+        flex-wrap: wrap;
+    }
+    .calculator-form .calculator-form-title {
+        font-size: 30px;
+    }
+    .calculator-form .calculator-form-title::before {
+        right: 0;
+        padding: 30px;
+    }
+    .header-call {
+        min-width: 360px;
+    }
+    .header-call-phone {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mobile-menu-links {
+        padding-top: 40px;
+        position: fixed;
+        background: #fff;
+        left: -200px;
+        max-width: 250px;
+        width: 0;
+        opacity: 0;
+        transition: .2s;
+        display: block;
+        top: 0;
+        box-shadow: 0 0 30px #00000019;
+        bottom: 0;
+        z-index: 0;
+        &.active {
+            width: 100%;
+            opacity: 1;z-index: 22;
+            left: 0;
+        }
+        div {
+            padding: 20px;
+            a {
+                display: block;
+                color: #333;
+                text-decoration: none;
+                margin: 10px 0;
+            }
+        }
+    }
+    .button-close {
+        background: url('../images/close.svg') center center / contain no-repeat;
+        padding: 15px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .search-input {
+        border: 1px solid #cecece;
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    // .calculator-form {
+    //     margin-top: 1.5rem;
+    //     margin-bottom: 1.5rem;
+    // }
+    .calculator-form p {
+        margin: 20px 0;
+    }
+    .green-field {
+        flex-wrap: wrap;
+        button {
+            margin-top: 20px;
+        }
+    }
+    .header-links {
+        display: none;
+    }
+    .menu-burger {
+        position: relative;
+        background: url('../images/burger.svg') center center / contain no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .catalog-item-calculator-text {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .calculator-form-submit {
+        margin: 0;
+        margin-top: 30px;
+    }
+    .filter {
+        flex-wrap: wrap;
+    }
+    .filter-dropdown {
+        margin-top: 30px;
+    }
+
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-call {
+        margin-top: 20px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .top-head-field {
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    .top-head-time {
+        margin-bottom: 10px;
+    }
+    .top-head-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .top-head-links a:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .logo-field {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 576px) {
+    .calculator-form-submit {
+        font-size: 15px;
+        padding: 0 15px;
+        &::before {
+            right: 15px;
+        }
+    }
+    .catalog-item .catalog-item-price span {
+        text-align: center;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+    }
+    .footer-top-time {
+        width: 100%;
+        margin: 15px 0;
+    }
+    footer .logo {
+        margin: 15px auto;
+    }
+    .footer-top-call {
+        width: 100%;
+    }
+    .catalog-pagination {
+        justify-content: center;
+    }
+    .catalog-item .catalog-item-price p {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .catalog-item .catalog-item-price-check {
+        width: 140px;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .header-call-phone {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .header-call {
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: unset;
+    }
+    .catalog-pagination .catalog-pagination-page {
+        margin: 0 10px;
+    }
+    .filter-dropdown select {
+        margin: 20px 0;
+    }
+    header {
+        justify-content: space-between;
+    }
+    
+    footer {
+
+        .footer-menu {
+            p {
+                text-align: center;
+                margin: 15px 0;
+            }
+            a {
+                text-align: center;
+                padding-left: 0;
+                &::before {
+                    display: none;
+                }
+            }
+        }
+        .footer-bottom {
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        .footer-copyright {
+            width: 100%;
+            text-align: center;
+        }
+        .footer-socials {
+            margin: 20px 0;
+        }
+        .footer-bottom .footer-powered {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
