@@ -150,6 +150,10 @@
     width: 100%;
     justify-content: space-between;
   }
+  .info-field p {
+    max-width: unset;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 576px) {
   .calculator-form-submit {
@@ -184,6 +188,7 @@
   }
   h2 {
     font-size: 30px;
+    line-height: 48px;
   }
   .header-call-phone {
     width: 100%;
